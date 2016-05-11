@@ -53,7 +53,7 @@ if (isset($_GET['studio_id'])) {
 							echo '<div class="row">';
 								# Visual
 								echo '<div class="col-sm-5">';
-									echo "<a href=\"viewshow.php?show_id=".$row["show_id"]."\"><img src='http://localhost/soto/".$row['show_visual']."' height='250'></a>";
+									echo "<a href=\"viewshow.php?show_id=".$row["show_id"]."\"><img src='./".$row['show_visual']."' height='250'></a>";
 								echo '</div>';
 			
 								# Text

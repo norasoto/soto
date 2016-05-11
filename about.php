@@ -24,7 +24,7 @@ $conn->set_charset("utf8");
 			echo '<div class="container-fluid"><div class="row">';
 			while ($row = $result->fetch_assoc()) {
 				echo '<div class="col-md-4">';
-				echo "<a href=\"viewshow.php?show_id=".$row["show_id"]."\"><img src='http://localhost/soto/".$row['show_visual']."' height='375'></a>";
+				echo "<a href=\"viewshow.php?show_id=".$row["show_id"]."\"><img src='./".$row['show_visual']."' height='375'></a>";
 				echo '</div>';}
 			echo '</div></div>';
     ?>

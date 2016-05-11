@@ -52,7 +52,7 @@ if (isset($_GET['show_id'])) {
 							
 							# Visual
 								echo '<div class="col-md-5">';
-									echo "<img src='http://localhost/soto/".$row['show_visual']."' height='500'>";
+									echo "<img src='./".$row['show_visual']."' height='500'>";
 								echo '</div>';
 								# Text
 								echo '<div class="col-md-7">';
